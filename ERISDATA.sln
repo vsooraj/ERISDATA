@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERISDATA.Web", "ERISDATA.Web\ERISDATA.Web.csproj", "{DED136C0-63C7-4FCA-81BA-CD771F0649E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERISDATA.Web.Tests", "ERISDATA.Web.Tests\ERISDATA.Web.Tests.csproj", "{B27721B9-9281-4121-9657-26878A0D76DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{F44F8FC1-71AC-4FB9-99E9-3ADC9B238940}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{4D8139D6-89E9-4797-89A0-A821BEA099DF}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ERISDATAWeb-WAWS-dev.json = PublishScripts\Configurations\ERISDATAWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErisData.Entities", "ErisData.Entities\ErisData.Entities.csproj", "{1D984ED7-8CA4-40D9-8BFD-100DB05C551D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErisData.Data", "ErisData.Data\ErisData.Data.csproj", "{0EF01F84-0719-411B-A2FA-4512EF16D33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErisData.Services", "ErisData.Services\ErisData.Services.csproj", "{8F6E2E0E-5DAA-4721-9D5F-9ED32AE4083C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED136C0-63C7-4FCA-81BA-CD771F0649E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED136C0-63C7-4FCA-81BA-CD771F0649E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED136C0-63C7-4FCA-81BA-CD771F0649E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED136C0-63C7-4FCA-81BA-CD771F0649E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27721B9-9281-4121-9657-26878A0D76DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27721B9-9281-4121-9657-26878A0D76DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27721B9-9281-4121-9657-26878A0D76DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27721B9-9281-4121-9657-26878A0D76DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D984ED7-8CA4-40D9-8BFD-100DB05C551D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D984ED7-8CA4-40D9-8BFD-100DB05C551D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D984ED7-8CA4-40D9-8BFD-100DB05C551D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D984ED7-8CA4-40D9-8BFD-100DB05C551D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF01F84-0719-411B-A2FA-4512EF16D33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF01F84-0719-411B-A2FA-4512EF16D33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF01F84-0719-411B-A2FA-4512EF16D33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF01F84-0719-411B-A2FA-4512EF16D33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6E2E0E-5DAA-4721-9D5F-9ED32AE4083C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6E2E0E-5DAA-4721-9D5F-9ED32AE4083C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6E2E0E-5DAA-4721-9D5F-9ED32AE4083C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6E2E0E-5DAA-4721-9D5F-9ED32AE4083C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D8139D6-89E9-4797-89A0-A821BEA099DF} = {F44F8FC1-71AC-4FB9-99E9-3ADC9B238940}
+	EndGlobalSection
+EndGlobal
